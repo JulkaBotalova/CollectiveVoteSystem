@@ -1,0 +1,22 @@
+﻿<Window x:Class="CollectiveVote.Forms.BordeForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectiveVote.Vote"
+        mc:Ignorable="d"
+        Title="Borde" Height="328" Width="367">
+    <Grid Margin="0,0,-8,-3">
+        <Label x:Name="label" Content="Введите количество голосующих:" HorizontalAlignment="Left" Margin="23,22,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="QuantityTB" HorizontalAlignment="Left" Height="23" Margin="223,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="Введите в ячейки приоритет каждому кандидату от 1 до 3" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Египет" HorizontalAlignment="Left" Margin="121,123,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Крым" HorizontalAlignment="Left" Margin="121,166,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Греция" HorizontalAlignment="Left" Margin="121,209,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBEgypt" HorizontalAlignment="Left" Height="23" Margin="197,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="21"/>
+        <TextBox x:Name="TBCrimea" HorizontalAlignment="Left" Height="23" Margin="197,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="21"/>
+        <TextBox x:Name="TBGreece" HorizontalAlignment="Left" Height="23" Margin="197,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="21"/>
+        <Button x:Name="NextB" Content="Следующий" HorizontalAlignment="Left" Margin="75,256,0,0" VerticalAlignment="Top" Width="191" Height="34" Click="NextB_Click"/>
+
+    </Grid>
+</Window>

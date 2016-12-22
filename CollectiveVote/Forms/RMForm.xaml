@@ -1,0 +1,19 @@
+﻿<Window x:Class="CollectiveVote.Forms.RMForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectiveVote.Vote"
+        mc:Ignorable="d"
+        Title="RM" Height="300" Width="340">
+    <Grid Margin="10,0,0,-4" HorizontalAlignment="Left" Width="320">
+        <Button x:Name="button" Content="Следующий" HorizontalAlignment="Left" Margin="26,222,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Label x:Name="label" Content="Метод относительного большинства" HorizontalAlignment="Left" Margin="22,20,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="EgyptRB" Content="Египет" HorizontalAlignment="Left" Margin="49,123,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="CrimeaRB" Content="Крым" HorizontalAlignment="Left" Margin="49,151,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GreeceRB" Content="Греция" HorizontalAlignment="Left" Margin="49,177,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="QuantityTB" HorizontalAlignment="Left" Height="23" Margin="168,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label1" Content="Количество голосующих" HorizontalAlignment="Left" Margin="22,65,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="CollectiveVote.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectiveVote"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="294.5" Width="423">
+    <Grid Margin="0,0,2,-21">
+        <Label x:Name="label" Content="Выберите метод коллективного принятия решения" HorizontalAlignment="Left" Margin="54,43,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="RMButton" Content="Метод относительного большинства" HorizontalAlignment="Left" Margin="54,108,0,0" VerticalAlignment="Top" Width="293" Click="RMButton_Click"/>
+        <Button x:Name="BordeB" Content="Борде" HorizontalAlignment="Left" Margin="54,192,0,0" VerticalAlignment="Top" Width="293" Click="BordeB_Click"/>
+        <Button x:Name="CondorcetB" Content="Кондорсе" HorizontalAlignment="Left" Margin="54,148,0,0" VerticalAlignment="Top" Width="293" Click="CondorcetB_Click"/>
+
+    </Grid>
+</Window>
